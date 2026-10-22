@@ -1,0 +1,28 @@
+name: Lab
+description: A hands-on build in AWS
+title: "Lab NN: "
+labels: ["type: lab", "cloud: aws"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: NextWork project link, or "self-built"
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What this lab builds and what it proves
+    validations:
+      required: true
+  - type: checkboxes
+    id: done
+    attributes:
+      label: Definition of done
+      options:
+        - label: Built and verified in AWS
+        - label: Diagram added
+        - label: README written from the lab template
+        - label: Terraform added (or a follow-up issue opened)
+        - label: Resources torn down
+        - label: Lab index in the top-level README updated

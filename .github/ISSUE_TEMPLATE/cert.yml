@@ -1,0 +1,14 @@
+name: Certification task
+description: Exam prep, practice tests, or booking
+labels: ["type: cert"]
+body:
+  - type: input
+    id: cert
+    attributes:
+      label: Certification
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task

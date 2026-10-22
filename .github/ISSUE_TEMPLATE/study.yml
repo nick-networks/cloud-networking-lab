@@ -1,0 +1,15 @@
+name: Study topic
+description: Reading, a course module, or notes to write
+labels: ["type: study"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic and resources
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: Which notes file this produces
