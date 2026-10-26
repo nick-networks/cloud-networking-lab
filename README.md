@@ -30,7 +30,7 @@ I'm studying cloud networking on the way to a DevOps or cloud network engineerin
 | # | Lab | Source | Status | PR
 | --- | --- | --- | --- | --- |
 | 01 | [Build a VPC](labs/01-build-a-vpc) | NextWork | Done | [[PR](Lab01)](https://github.com/nick-networks/cloud-networking-lab/pull/11)
-| 02 | [VPC traffic flow and security](labs/02-vpc-traffic-flow-and-security) | NextWork | Not started |
+| 02 | [VPC traffic flow and security](labs/02-vpc-traffic-flow-and-security) | NextWork | Done | [[PR](Lab02)](https://github.com/nick-networks/cloud-networking-lab/pull/13)
 | 03 | [Private subnet](labs/03-private-subnet) | NextWork | Not started |
 | 04 | [Launch VPC resources](labs/04-launch-vpc-resources) | NextWork | Not started |
 | 05 | [Test VPC connectivity](labs/05-test-vpc-connectivity) | NextWork | Not started |
